@@ -3,8 +3,16 @@
         <title>All Posts - Jeffery Kong Machine Learning &#43; Python Blog</title>
         <link>https://z3fei.github.io/posts/</link>
         <description>All Posts | Jeffery Kong Machine Learning &#43; Python Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Oct 2021 15:26:44 &#43;0800</lastBuildDate><atom:link href="https://z3fei.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>How_to_create_hugo_blog_on_github</title>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Oct 2021 15:53:54 &#43;0800</lastBuildDate><atom:link href="https://z3fei.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How to update changes to Hugo blog on GitHub</title>
+    <link>https://z3fei.github.io/posts/how_to_update_changes_to_hugo_blog_on_github/</link>
+    <pubDate>Thu, 07 Oct 2021 15:53:54 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://z3fei.github.io/posts/how_to_update_changes_to_hugo_blog_on_github/</guid>
+    <description><![CDATA[Make sure the local source files of the website are updated with the changes done on GitHub (if any). Skip this step if none.  Go to Terminal
+	cd my_site git pull origin master Make any changes to the files locally or add new posts. Go to my_site folder  	hugo new posts/second_post.md Open second_post.md using text editor and remove the property draft: true and replace it with draft: false  Launch the website locally to check the updates are correct before updating to GitHub  	hugo serve Go to http://localhost:1313  Create the public folder and generate the necessary files required for the website in it.]]></description>
+</item><item>
+    <title>How to create hugo blog on GitHub</title>
     <link>https://z3fei.github.io/posts/how_to_create_hugo_blog_on_github/</link>
     <pubDate>Thu, 07 Oct 2021 15:26:44 &#43;0800</pubDate>
     <author>Author</author>

@@ -63,7 +63,12 @@
 <main class="main">
                 <div class="container"><div class="page home" posts><div class="home-profile"></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/how_to_create_hugo_blog_on_github/">How_to_create_hugo_blog_on_github</a>
+        <a href="/posts/how_to_update_changes_to_hugo_blog_on_github/">How to update changes to Hugo blog on GitHub</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-10-07">2021-10-07</time></span></div><div class="content">Make sure the local source files of the website are updated with the changes done on GitHub (if any). Skip this step if none.  Go to Terminal
+	cd my_site git pull origin master Make any changes to the files locally or add new posts. Go to my_site folder  	hugo new posts/second_post.md Open second_post.md using text editor and remove the property draft: true and replace it with draft: false  Launch the website locally to check the updates are correct before updating to GitHub  	hugo serve Go to http://localhost:1313  Create the public folder and generate the necessary files required for the website in it.</div><div class="post-footer">
+        <a href="/posts/how_to_update_changes_to_hugo_blog_on_github/">Read More</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/posts/how_to_create_hugo_blog_on_github/">How to create hugo blog on GitHub</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span>&nbsp;<span class="post-publish">published on <time datetime="2021-10-07">2021-10-07</time></span></div><div class="content">This is a guide for Mac but similar logic should be same for Windows
   Install hugo package brew install hugo 
   Create the blog. Open your terminal and type in hugo new site my_site cd my_site 
